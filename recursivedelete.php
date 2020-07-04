@@ -19,7 +19,6 @@ function recursiveDelete($path) {
                                 recursiveDelete("$path/$x");
                         }
                 }
-                echo "Removing directory $path\n";
                 rmdir("$path");
         }
 }
